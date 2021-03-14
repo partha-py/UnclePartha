@@ -1,0 +1,86 @@
+body {
+  background-color: #e3f2fd;
+}
+
+.navbar-brand {
+  margin-right: 60%;
+}
+
+.banner {
+  position: fixed;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner .content {
+  max-width: 900px;
+  text-align: center;
+  margin-bottom: 10%;
+}
+
+.banner .content h2 {
+  font-size: 5rem;
+  color: #111;
+}
+
+.banner .content p {
+  font-size: 1rem;
+  color: #111;
+  text-align: center;
+}
+
+.change-text:before {
+  content: '';
+  animation-name: tagline;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes tagline {
+  0% {
+    content: "123...";
+  }
+
+  10% {
+    content: "Hello World";
+  }
+
+  20% {
+    content: "नमस्ते दुनिया 🇮🇳"
+  }
+
+  30% {
+    content: "Olá Mundo 🇧🇷";
+  }
+
+  40% {
+    content: "Selam Dünya 🇹🇷"
+  }
+
+  50% {
+    content: "Bonjour le monde 🇫🇷";
+  }
+
+  60% {
+    content: "Hola Mundo 🇪🇸"
+  }
+
+  70% {
+    content: "Kamusta Mundo 🇵🇭"
+  }
+
+  80% {
+    content: "Hallo Welt 🇩🇪"
+  }
+
+  90% {
+    content: "Ciao mondo 🇮🇹"
+  }
+
+  100% {
+    content: "Ah! Here We Go Again"
+  }
+}
